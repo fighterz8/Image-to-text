@@ -3,7 +3,7 @@ import os
 from google.cloud import vision
 
 def setup_client():
-    credential_path = os.path.join(os.path.dirname(__file__), "image-to-text-388416-01d1a4ed8a36.json")
+    credential_path = os.path.join(os.path.dirname(__file__), #YOUR JSONFILE )
     return vision.ImageAnnotatorClient.from_service_account_json(credential_path)
 
 def load_images(image_paths):
@@ -40,7 +40,7 @@ def save_text(image_path, detected_text):
 
 def main():
     client = setup_client()
-    image_dir = r"C:\Python311\Custom scripts\bloomfeedback"
+    image_dir = # Insert path to image folder directory here
     
     # Get a list of all file names in that directory
     image_files = os.listdir(image_dir)
