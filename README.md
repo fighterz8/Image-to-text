@@ -1,10 +1,11 @@
 # Image-to-text
-A simple python script designed to scan images for text then save the output to a file on your local desktop.
+A simple python script designed to scan images for text then save the output to a file on your local desktop.\n
+
 Image-to-Text Script
-This script is designed to extract text from images using the Google Cloud Vision API. It takes a directory containing images as input and saves the extracted text from each image to separate text files.
+This script is designed to extract text from images using the Google Cloud Vision API. It takes a directory containing images as input and saves the extracted text from each image to separate text files.\n
 
 Prerequisites
-Before running the script, you need to set up the following:
+Before running the script, you need to set up the following:\n
 
 Python 3.11 or a compatible version.
 
