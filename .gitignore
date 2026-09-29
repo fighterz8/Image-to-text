@@ -1,0 +1,6 @@
+# Keep local credentials out of version control.
+/image-to-text-388416-*.json
+/.env
+/.env.*
+!/.env.example
+/secrets/
